@@ -115,3 +115,11 @@ body {
     font-family: 'FigtreeExtraBold', sans-serif;
     margin: auto 0;
 }
+
+/* Attribution */
+
+.attribution {
+    margin-top: 2rem;
+    font-family: 'FigtreeItalicFont', sans-serif;
+    font-size: 12px;
+}
