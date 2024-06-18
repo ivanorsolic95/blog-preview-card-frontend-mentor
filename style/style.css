@@ -35,6 +35,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 /* Style of the blog card component */
@@ -47,8 +48,6 @@ body {
     border-width: 1px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    margin-top: 139px;
-    width: 384px;
     max-width: 100%;
     flex-direction: column;
     padding: 24px;
@@ -114,6 +113,24 @@ body {
 .authorname {
     font-family: 'FigtreeExtraBold', sans-serif;
     margin: auto 0;
+}
+
+@media (max-width: 410px) {
+    .card-container {
+        width: 17rem;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 800px) {
+    .card-container {
+        width: 20rem;
+    }
+}
+
+@media (min-width: 801px) {
+    .card-container {
+        width: 24rem;
+    }
 }
 
 /* Attribution */
