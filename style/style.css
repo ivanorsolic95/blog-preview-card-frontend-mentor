@@ -85,6 +85,7 @@ body {
     color: var(--Grey, #7f7f7f);
     margin-top: 12px;
     font: 500 16px/24px 'FigtreeRegularFont', sans-serif;
+    margin-right: 1rem;
 }
 
 .author-info {
@@ -111,6 +112,9 @@ body {
 @media (min-width: 411px) and (max-width: 800px) {
     .card-container {
         width: 20rem;
+    }
+    .description {
+        margin-right: 0;
     }
 }
 
