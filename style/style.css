@@ -42,33 +42,25 @@ body {
 
 .card-container {
     border-radius: 20px;
-    box-shadow: 8px 8px 0px 0px #000;
-    border-color: rgba(17, 17, 17, 1);
+    box-shadow: 8px 8px #000;
     border-style: solid;
     border-width: 1px;
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    max-width: 100%;
     flex-direction: column;
     padding: 24px;
 }
 
 .img {
     border-radius: 10px;
-    aspect-ratio: 1.67;
-    object-fit: auto;
-    object-position: center;
-    width: 100%;
 }
 
 .category {
     font-family: 'FigtreeExtraBold', sans-serif;
-    justify-content: center;
     border-radius: 4px;
     background-color: hsl(47, 88%, 63%);
     align-self: start;
     margin-top: 24px;
-    white-space: nowrap;
     padding: 4px 12px;
 }
 
@@ -96,18 +88,13 @@ body {
 }
 
 .author-info {
-    align-self: start;
     display: flex;
     margin-top: 24px;
     gap: 12px;
 }
 
 .userpic {
-    aspect-ratio: 1;
-    object-fit: auto;
-    object-position: center;
     width: 32px;
-    border-radius: 50%;
 }
 
 .authorname {
