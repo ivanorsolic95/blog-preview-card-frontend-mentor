@@ -50,7 +50,7 @@ This is my first project working with TTF files, which is a new and valuable exp
 
 ### Continued development
 
-Instead of the HTML /<br> tag, I used margins to add line breaks in the paragraph. Margins are a better option than the /<br> tag when talking about responsiveness, but I think it should be a better solution, so I will continue to try the other options.
+Instead of the HTML `<br>` tag, I used margins to add line breaks in the paragraph. Margins are a better option than the `<br>` tag when talking about responsiveness, but I think it should be a better solution, so I will continue to try the other options.
 
 ### Useful resources
 
